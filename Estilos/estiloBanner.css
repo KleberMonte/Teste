@@ -1,0 +1,47 @@
+#imagens
+{	
+	width: 900px;
+	height: 500px;
+
+	display: block;
+
+	margin: 10px 250px;
+}
+
+#image1
+{
+	width: 800px;
+	height: 500px;
+}
+
+#next
+{
+	width: 40px;
+	height: 40px;
+}
+
+#back
+{
+	width: 40px;
+	height: 40px
+}
+
+div#direita
+{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 313px;
+	bottom: 150px;
+}
+
+div#esquerda
+{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 263px;
+	bottom: 150px;
+}
