@@ -10,4 +10,10 @@ function esquerda()
 	alert("Esquerda");
 }
 
-//alteração feita ...
+function teste(texto)
+{
+	alert(texto);
+}
+
+
+teste ("Alteração zar ...");
