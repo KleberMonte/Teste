@@ -1,6 +1,6 @@
 #imagens
 {	
-	width: 900px;
+	width: 800px;
 	height: 500px;
 
 	display: block;
@@ -8,8 +8,10 @@
 	margin: 10px 250px;
 }
 
-#image1
+img.image1
 {
+	position: relative;
+	
 	width: 800px;
 	height: 500px;
 }
@@ -18,12 +20,16 @@
 {
 	width: 40px;
 	height: 40px;
+
+	background-color: blue;
 }
 
 #back
 {
 	width: 40px;
-	height: 40px
+	height: 40px;
+
+	background-color: blue;
 }
 
 div#direita
