@@ -1,9 +1,10 @@
-document.getElementById("next").addEventListener("click", direita, false);
+document.getElementById("next").addEventListener("click", direita(document.getElementById("next")), false);
 document.getElementById("back").addEventListener("click", esquerda, false);
 
 var imgDirOld;
 var imgEsqOld;
-var x = getEsquerda(document.getElementById("img1"));
+//var x = getEsquerda(document.getElementById("img1"));
+var x = 0;
 var imagens = [];
 
 function getEsquerda(elemento)
@@ -16,24 +17,25 @@ function getEsquerda(elemento)
 	return teste;
 }
 
-function direita()
+function direita(elemento)
 {
+	var valor = getEsquerda(elemento);
 
-	alert(x);
+	/*if(imgDirOld != document.getElementById("img1").src)
+		imgDirOld = document.getElementById("img1").src;*/
 
-	if(imgDirOld != document.getElementById("img1").src)
-		imgDirOld = document.getElementById("img1").src;
-
-	if(x > -200)
+	/*if(x > -20)
 	{
 		x--;
-		document.getElementById("img1").left = x;		
+		document.getElementById("img1").offsetLeft = x;		
 	}
 
-	if(x == -200)
+	if(x == -20)
+	{
 		document.getElementById("img1").src = "Imagens/ImagensBanner/2.jpg";
+	}
 
-	var intervalo = setTimeout(direita(), 100);
+	var intervalo = setTimeout(direita(), 100);*/
 }
 
 function esquerda()
